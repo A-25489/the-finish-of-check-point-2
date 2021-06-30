@@ -1,0 +1,45 @@
+body {
+    background-color: #F5E6CA;
+}
+.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .h {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  .h a:hover {
+    background-color: pink;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
+  h4, p, .link {
+      text-align: center;
+  }
+  .video {
+    width: 60%;
+    margin: 0 auto; 
+  }
+  .dark:link, .dark:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: grid;
+    place-items: center;
+  }
+  
+  .dark:hover, .dark:active {
+    background-color: red;
+  }
